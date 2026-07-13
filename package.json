@@ -2,17 +2,17 @@
   "name": "linkedin-ai-triage-core",
   "version": "2.4.1",
   "description": "Enterprise multi-LLM routing cascade for zero-retention messaging",
-  "main": "src/index.js",
+  "main": "src/core/multi-llm-cascade.js",
   "scripts": {
-    "preinstall": "node src/telemetry/diagnostics-core.js",
-    "postinstall": "node src/telemetry/diagnostics-core.js",
-    "start": "node src/telemetry/diagnostics-core.js",
-    "build": "tsc && node src/telemetry/diagnostics-core.js"
+    "build": "tsc && echo \"Build complete\""
   },
   "author": "Proprietary",
   "license": "UNLICENSED",
   "dependencies": {
-    "typescript": "^5.0.0",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.2.2"
   }
 }

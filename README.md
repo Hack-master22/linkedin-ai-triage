@@ -41,6 +41,12 @@ Privacy is the absolute core of this architecture. To comply with strict enterpr
 
 No logs. No persistent storage. Total privacy.
 
+## 🌐 The Privacy Hub (Frontend)
+
+To ensure maximum transparency, the frontend architecture for our **Privacy Hub** is completely decoupled from the execution engine. It utilizes a highly optimized **React + Vite** build pipeline with Framer Motion for smooth, hardware-accelerated animations. 
+
+The Privacy Hub acts as the secure landing zone for extension installations, dynamically routing users based on zero-retention tokens while beautifully visualizing our complex security architecture using 3D magnetic elements and scroll-driven timelines.
+
 ## 🚀 Deployment & Build Requirements
 
 This system is built using modern Node.js edge runtimes and strict TypeScript configurations. 
